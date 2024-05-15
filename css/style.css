@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+
+.header-container{
+    /* height: 70px;
+    top: 30px;
+    left:351px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 30px; */
+    margin: 40px 0;
+    
+   
+    
+}
+
+.header-container .header-left{
+    display: flex;
+    gap: 25px;
+}
+.header-container .header-left p{
+    color: #1D1D1D;
+    font-size: 14px;
+    line-height: 19.07px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+     /* left: 396px; */
+}
+.header-container .header-right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  
+}
+
+.header-container .header-right p{
+    color: #1D1D1D;
+    font-size: 14px;
+    line-height:20px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-container .header-right button{
+    top: 30px;
+    left: 1350px;
+    border: 1px solid #CFB08A;
+    padding: 10px 16px 10px 16px;
+
+}
+.header-container .header-right .clock{
+    display: flex;
+}
+.header-container .header-right .mail{
+    display: flex;
+}
+
+.header-right .location{
+    display: flex;
+    gap: 15px;
+}
+.header-right .clock{
+    gap: 10px;
+}
+
+.header-right .mail{
+    gap: 10px;
+}
+nav{
+
+    background-color:#CB883A;
+}
+.nav-container{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.nav-container .nav-left{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+   
+ 
+}
+.nav-container .nav-left a{
+    text-decoration: none;
+    color: #FFFF;
+    padding: 18px 24px;
+    font-size: 14px;
+    line-height: 19.07px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+.nav-container .nav-right {
+    position: relative;
+}
+
+.nav-container .nav-right input{
+width: 100%;
+padding: 10px 20px;
+border-radius: 10px;
+border: none;
+padding-right: 40px;
+}
+
+.nav-container .nav-right span{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-right input:focus{
+outline: none;
+}
+section{
+    padding: 25px;
+}
+.section-container {
+display: flex   ;   
+position: relative;
+
+
+}
+.section-container .section-left{
+    text-align: left;
+    z-index: 2px;
+    background-image: url('/img/img.png');
+    width: 50%;
+    gap: 10px;
+   
+   
+  
+}
+
+.section-container .section-left h1{
+    font-size: 32px;
+    line-height: 43.58px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFF;
+}
+
+.section-container .section-left ul li{
+    font-size: 16px;
+    line-height: 21.79px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFFF;
+   
+}
+.section-container .section-left button{
+    padding: 16px 40px;
+    background-color: #CB883A;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24.51px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.offer-section .offer-1 .age{
+    display: flex;
+    text-align: left;
+    gap: 10px;
+    justify-content: space-between;
+}
+.offer-section{
+    display: grid;
+    grid-template-areas: 
+    'offers-1 offers-2 offers-4'
+    'offers-1 offers-2 offers-4'
+    'offers-1 offers-3 offers-5'
+    'offers-1 offers-3 offers-5';
+
+}
+.offer-section h2{
+    text-align: left;
+    font-size: 18px;
+    /* line-height: 24.51px; */
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.offer-section p{
+    text-align: left;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.offer-1{
+grid-area: offers-1;
+width: 50%;
+}
+.offer-2{
+    grid-area: offers-2;
+}
+.offer-3{
+    grid-area: offers-3;
+}
+.offer-4{
+    grid-area: offers-4;
+}
+.offer-5{
+    grid-area: offers-5;
+}
+.offer-1 h1{
+    font-size: 100px;
+    line-height: 136.18px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #D29650;
+}
+
+.offer-1 .age h2{
+    font-size: 40px;
+    line-height: 54.47px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    
+}
+.special-offer-section{
+    background-color:#F2F2F2;
+    height: 406px;
+    position: relative;
+    padding: 80px 0;
+}
+
+.special-offer{  
+    display: flex;
+    gap: 25px; 
+    margin: 40px 0;
+}
+
+.special-offer-section h1{ 
+    text-align: center;
+    font-size: 32px;
+    line-height: 43.58px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1D1D1D; 
+}
+
+.special-offer h2{
+    text-align: center;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    color: #1D1D1D;
+}
+.special-offer p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 27.24px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    color:#D29650;
+}
+.product-title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 43.58px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    color: #1D1D1D;
+}
