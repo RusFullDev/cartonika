@@ -27,6 +27,7 @@
 .header-container .header-left{
     display: flex;
     gap: 25px;
+    align-items: center;
 }
 .header-container .header-left p{
     color: #1D1D1D;
@@ -52,7 +53,7 @@
     top: 30px;
     left: 1350px;
     border: 1px solid #CFB08A;
-    padding: 10px 16px 10px 16px;
+    padding: 10px 16px;
 
 }
 .header-container .header-right .clock{
@@ -60,11 +61,13 @@
 }
 .header-container .header-right .mail{
     display: flex;
+    justify-content: end;;
 }
 
 .header-right .location{
     display: flex;
     gap: 15px;
+    align-items: center;
 }
 .header-right .clock{
     gap: 10px;
@@ -124,8 +127,10 @@ padding-right: 40px;
 .nav-right input:focus{
 outline: none;
 }
-section{
-    padding: 25px;
+.section{
+    padding:25px;
+    /* background-image: url('/img/img.png');
+    background-repeat: no-repeat; */
 }
 .section-container {
 display: flex   ;   
