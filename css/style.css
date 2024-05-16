@@ -434,3 +434,210 @@ height: 32px;
     background-color:#FFFFFF;
     border: 1px solid #D29650;
 }
+
+
+/**********************************/
+.section-rulon{
+    margin: 150px;
+    background-color: #F2F2F2;
+    height: 960px;
+}
+
+    .rulon-container{
+     display: flex;
+     align-items: center;
+     gap:135px;
+     padding: 100px 0;
+    }
+    
+    .rulon-left table{
+        width: 100%;
+    }
+    .rulon-left thead{
+        background-color:#DEDEDE;
+       padding: 10px 20px;
+       height: 39px;
+       gap: 10px;
+    }
+    .rulon-left tbody tr td{
+    border-bottom: 1px solid#DEDEDE;
+    height: 32px;
+    }
+    
+    .rulon-left tbody tr td:nth-last-child(3){
+        border: none;
+            }
+    .rulon-left tbody td{
+        text-align: center;
+        
+    }
+   
+    .rulon-left p{
+        color: #1D1D1D;
+        font-size: 16px;
+        line-height: 21.79px;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;  
+        margin-bottom: 20px;
+    }
+    .rulon-left li{
+        color: #1D1D1D;
+        font-size: 16px;
+        line-height: 21.79px;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif;  
+        margin-bottom: 10px;
+    }
+    
+    .rulon-left table p{
+        color: #1D1D1D;
+        font-size: 14px;
+        line-height: 19.07px;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+    }
+ section .button-btn{
+        gap: 20px;
+        display: flex;
+        margin-top: 50px;
+    }
+ section button{
+    
+        background-color:#D29650;
+        color: #FFFFFF;
+        padding: 16px 50px;
+        font-size: 18px;
+        line-height: 24.51px;
+        font-family:'Open Sans', 'Helvetica Neue', sans-serif; 
+     
+    }
+ section .btn-2{
+        border: none;
+    }
+section .btn-1{
+        color:#1D1D1D;
+        background-color:#FFFFFF;
+        border: 1px solid #D29650;
+    }
+    
+
+    .rulon-right{
+        width: 490px;
+        height: 624px;
+        flex-shrink: 0;
+        background-image: url('../img/rulon.png');
+        padding: 30px;
+    }
+    
+    .rulon-right:hover{
+        padding: 20px;
+    }
+    .border{
+        width: 100%;
+        height: 100%;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+/********************************/
+.box-section{
+    background-color: #FFFFFF;
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    gap: 135px;
+    }
+
+.box-left{
+    width: 490px;
+    height: 468px;
+    flex-shrink: 0;
+    background-image: url('../img/box.png');
+    padding: 30px;
+}
+
+.box-left:hover{
+    padding: 20px;
+}
+
+.box-right p,li{
+    color: #1D1D1D;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;  
+    margin-bottom: 20px;
+}
+/********************************************/
+.package-section{
+    margin-top: 100px;
+    background-color: #F2F2F2;
+    height: 700px;
+}
+.package-container{
+  
+    display: flex;
+    align-items: center;
+    gap: 135px;
+    padding: 110px 0;
+    }
+.package-right{
+    width: 490px;
+    height: 468px;
+    flex-shrink: 0;
+    background-image: url('../img/box.png');
+    padding: 30px;
+}
+
+.package-right:hover{
+    padding: 20px;
+}
+
+.package-left p{
+    color: #1D1D1D;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;  
+    margin-bottom: 20px;
+}
+/********************************************/
+.about-section{
+    position: relative;
+    height: 500px;
+    background-image: url('../img/about.png');
+    margin-top: 100px;
+ 
+}
+
+.about-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    /* transform: translateY(-50%); */
+}
+.about-left {
+    padding-top:100px;
+    flex-shrink: 0;
+}
+.about-left h2{
+    color: #FFFF;
+    font-size: 32px;
+    line-height: 43.58px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;  
+    
+
+}
+.about-left li{
+    color: #FFFF;
+    font-size: 16px;
+    line-height: 21.79px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;  
+  
+}
+
+.about-right{
+ 
+    /* flex-shrink: 0; */
+    /* justify-content: center;
+    position:unset;
+    transform: translateY(-50%);  */
+}
