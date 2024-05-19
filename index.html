@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cartonica</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/emble.css">
 </head>
@@ -15,12 +15,14 @@
         <div class="container">
             <div class="header-container">
                 <div class="header-left">
+                    <div class="phone-header-left"> <img src="./img/bar.png" alt="bar"></div>
                     <div class="logo"><img src="./img/Rectangle.png" alt="logotip"></div>
-                    <div>
+                    <div class="gofcart">
                         <p>Гофрокартон и <br>упаковка оптом</p>
                     </div>
                 </div>
                 <div class="header-right">
+                    <div class="phone-header-right"><img src="./img/phone.png" alt=""></div>
                     <div class="location">
                         <div><img src="./img/map-pin.png" alt="location"> </div>
                         <div>
@@ -39,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="zakaz-btn">
                         <button>Заказать обратный звонок</button>
                         <div class="mail">
                             <div><img src="./img/mail.png" alt="mail"></div>
@@ -144,9 +146,7 @@
                 <div class="offer-1">
                     <div class="age">
                         <h1>13</h1>
-                        <!-- <div class="let"> -->
                         <h2>лет опыта</h2>
-                        <!-- </div> -->
                     </div>
                     <div>
                         <p>в производстве<br>и поставках гофрокартона,<br>тары и упаковки крупными<br> и малыми партиями
@@ -604,11 +604,11 @@
                     </div>
                     <div class="right-form">
                         <textarea name="coment" id="coment" cols="50" rows="10">Введите текст сообщения</textarea>
-                        <input type="file" style="display: none;">
+                        <input type="file" style="display: none;" id="input">
                         <div class="btn-form">
                             <div class="btn-fayl">
                    
-                            <button class="fayl"><img src="./img/eva_attach-fill.png" alt="">Прикрепить файл</button>
+                            <button class="fayl" onclick="focusInput()"><img src="./img/eva_attach-fill.png" alt="">Прикрепить файл</button>
                         </div>
                             <button id="send">Отправить</button>
                         </div>
@@ -679,6 +679,12 @@
         const options = { loop: false }
         const plugins = [EmblaCarouselAutoplay()]
         const emblaApi = EmblaCarousel(emblaNode, options, plugins)
+    </script>
+    <script>
+        const input = document.getElementById('input')
+        function focusInput(){
+            input.click()
+        }
     </script>
 
 </body>
